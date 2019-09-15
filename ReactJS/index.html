@@ -69,7 +69,10 @@
 @import url("https://jse-dev.sites.stanford.edu/sites/all/modules/stanford/stanford_events_importer/modules/stanford_events_views/css/stanford_events_views.css?pxr18w");
 @import url("https://jse-dev.sites.stanford.edu/sites/all/modules/contrib/context_list_active/context_list_active.css?pxr18w");
 </style>
-<link type="text/css" rel="stylesheet" href="./SWS_People_files/font-awesome.min.css" media="all" data-la-initdispnone="true">
+
+<link href="https://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+<link href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+<!--<link type="text/css" rel="stylesheet" href="./SWS_People_files/font-awesome.min.css" media="all" data-la-initdispnone="true">-->
 <style type="text/css" media="all" data-la-initdispnone="true">
 @import url("https://jse-dev.sites.stanford.edu/sites/all/modules/contrib/field_collection/field_collection.theme.css?pxr18w");
 @import url("https://jse-dev.sites.stanford.edu/sites/all/modules/stanford/stanford_bean_types/css/stanford_bean_types.css?pxr18w");
@@ -141,7 +144,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
   <!--[if lt IE 9]>
     <script src="/sites/all/themes/open_framework/js/html5shiv.js"></script>
   <![endif]-->
-<link type="text/css" rel="stylesheet" href="chrome-extension://dagdlcijhfbmgkjokkjicnnfimlebcll/style.css" data-la-initdispnone="true"><script type="text/javascript" charset="utf-8" src="chrome-extension://dagdlcijhfbmgkjokkjicnnfimlebcll/page_context.js"></script><script src="chrome-extension://ojiighldhdmahfdnhfdebnpmlbiemdfm/AccessEngine.js" data-la-injected="levelaccess-engine" data-ae_invis="true"></script><script src="chrome-extension://ojiighldhdmahfdnhfdebnpmlbiemdfm/LevelAccess-AST.js" data-la-injected="levelaccess-ast-js" data-ae_invis="true"></script><link rel="stylesheet" href="chrome-extension://ojiighldhdmahfdnhfdebnpmlbiemdfm/LevelAccess-AST.css" data-la-injected="levelaccess-ast-css" data-ae_invis="true" data-la-initdispnone="true"><script src="chrome-extension://ojiighldhdmahfdnhfdebnpmlbiemdfm/LevelAccess-Macro.js" data-la-injected="levelaccess-macro-recorder" data-ae_invis="true"></script></head>
+</head>
 
 <body class="html not-front logged-in one-sidebar sidebar-first page-people page-people-export stanford-jumpstart-home-pettit active-home-context        style-custom  header-bkg-image header-bkg-text-light style-custom-styles-contrast style-custom-fonts-slab admin-menu" screen_capture_injected="true">
     <div id="wrap"><a href="https://jse-dev.sites.stanford.edu/people/export#main" class="element-invisible element-focusable">Skip to content</a>
@@ -755,5 +758,19 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
 <ul id="admin-menu-context-list-active" class="dropdown"><li class="admin-menu-action context-list-active-toggle"><a href="https://jse-dev.sites.stanford.edu/people/export" class="active">Show active contexts</a></li></ul></div></div></div>
  <!-- /.region -->
 
+ <!--
+ Polyfills for older browsers
+ @see https://reactjs.org/docs/javascript-environment-requirements.html
+ <script crossorigin src="https://unpkg.com/core-js@2.5.1/client/shim.min.js"></script>
+ <script>window.core || document.write('<script crossorigin src="../../../node_modules/core-js/client/shim.min.js"><\/script>')</script>
+ <script src="../../../assets/polyfills/raf-3.4.0-polyfill.min.js"></script>
+ -->
 
-<div id="cboxOverlay" style="display: none;" data-la-initdispnone="true"></div><div id="colorbox" class="" role="dialog" tabindex="-1" style="display: none;" data-la-initdispnone="true"><div id="cboxWrapper"><div><div id="cboxTopLeft" style="float: left;"></div><div id="cboxTopCenter" style="float: left;"></div><div id="cboxTopRight" style="float: left;"></div></div><div style="clear: left;"><div id="cboxMiddleLeft" style="float: left;"></div><div id="cboxContent" style="float: left;"><div id="cboxTitle" style="float: left;"></div><div id="cboxCurrent" style="float: left;"></div><button type="button" id="cboxPrevious"></button><button type="button" id="cboxNext"></button><button type="button" id="cboxSlideshow"></button><div id="cboxLoadingOverlay" style="float: left;"></div><div id="cboxLoadingGraphic" style="float: left;"></div></div><div id="cboxMiddleRight" style="float: left;"></div></div><div style="clear: left;"><div id="cboxBottomLeft" style="float: left;"></div><div id="cboxBottomCenter" style="float: left;"></div><div id="cboxBottomRight" style="float: left;"></div></div></div><div style="position: absolute; width: 9999px; visibility: hidden; display: none; max-width: none;" data-la-initdispnone="true" data-la-initvishidden="true"></div></div><div id="shadowMeasureIt" data-la-initdispnone="true"></div><div id="divCoordMeasureIt" data-la-initdispnone="true"></div><div id="divRectangleMeasureIt" data-la-initdispnone="true"><div id="divRectangleBGMeasureIt"></div></div><div id="level-access-access-assistant-highlight-container" data-ae_invis="true"></div></body></html>
+ <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+ <script>window.React || document.write('<script crossorigin src="../../../node_modules/react/umd/react.development.js"><\/script>')</script>
+ <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+ <script>window.ReactDOM || document.write('<script crossorigin src="../../../node_modules/react-dom/umd/react-dom.development.js"><\/script>')</script>
+
+
+</body>
+</html>
