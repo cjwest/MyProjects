@@ -1,0 +1,350 @@
+{
+  "nodes": {
+    "-data-livestyle-extension": "available",
+    "node": [
+      {
+        "nid": "521",
+        "Picture": {
+          "img": {
+            "-class": "image-style-sm-square",
+            "-typeof": "foaf:Image",
+            "-src": "https://jse-dev.sites.stanford.edu/sites/g/files/sbiybj6821/f/styles/sm-square/public/profile-large-blank.png?itok=zcqEkZXQ",
+            "-width": "100",
+            "-height": "100"
+          }
+        },
+        "Name": "Kerri Augenstein",
+        "Title-and-Department": "
+Senior User Experience Designer, Creative Lead, Stanford Web Services
+",
+        "Phone": "(650) 725-2779",
+        "Email": {
+          "div": {
+            "span": {
+              "-class": "descriptor",
+              "#text": "Email: "
+            },
+            "a": {
+              "-href": "mailto:kaugenst@stanford.edu",
+              "#text": "kaugenst@stanford.edu"
+            }
+          }
+        },
+        "Edit": {
+          "a": {
+            "-href": "/node/521/edit?destination=people/export/rss.xml",
+            "#text": "Edit"
+          }
+        }
+      },
+      {
+        "nid": "526",
+        "Picture": {
+          "img": {
+            "-class": "image-style-sm-square",
+            "-typeof": "foaf:Image",
+            "-src": "https://jse-dev.sites.stanford.edu/sites/g/files/sbiybj6821/f/styles/sm-square/public/ac5f4962bb6636608c199e57b18d92b2.jpg?itok=8r0ykL6K",
+            "-width": "100",
+            "-height": "100"
+          }
+        },
+        "Name": "John Bickar",
+        "Title-and-Department": "
+Senior Web Developer, DevOps Lead - Stanford Web Services, Stanford Web Services
+",
+        "Degrees-Education": "
+Ed.M., Harvard Graduate School of Education, Technology, Innovation, and Education, B.S., University of Virginia, Architecture
+",
+        "Body": "
+Senior Web Developer and DevOps Lead in Stanford Web Services; responsible for the Stanford Sites Drupal hosting platform.
+",
+        "Edit": {
+          "a": {
+            "-href": "/node/526/edit?destination=people/export/rss.xml",
+            "#text": "Edit"
+          }
+        }
+      },
+      {
+        "nid": "531",
+        "Picture": {
+          "img": {
+            "-class": "image-style-sm-square",
+            "-typeof": "foaf:Image",
+            "-src": "https://jse-dev.sites.stanford.edu/sites/g/files/sbiybj6821/f/styles/sm-square/public/bece7b6e9ef71c99f27845a5993aefb6.jpg?itok=J43gujDi",
+            "-width": "100",
+            "-height": "100"
+          }
+        },
+        "Name": "Dena N DeBry",
+        "Title-and-Department": "Senior Web Strategist, Stanford Web Services",
+        "Degrees-Education": "
+M.F.A., Pratt Institute, Fine Art, Printmaking (1993), B.A., University of California, Santa Cruz, Fine Art, Philosophy (1991)
+",
+        "Interests": "Art,design,Drupal,user experience",
+        "Email": {
+          "div": {
+            "span": {
+              "-class": "descriptor",
+              "#text": "Email: "
+            },
+            "a": {
+              "-href": "mailto:denas@stanford.edu",
+              "#text": "denas@stanford.edu"
+            }
+          }
+        },
+        "Edit": {
+          "a": {
+            "-href": "/node/531/edit?destination=people/export/rss.xml",
+            "#text": "Edit"
+          }
+        }
+      },
+      {
+        "nid": "536",
+        "Picture": {
+          "img": {
+            "-class": "image-style-sm-square",
+            "-typeof": "foaf:Image",
+            "-src": "https://jse-dev.sites.stanford.edu/sites/g/files/sbiybj6821/f/styles/sm-square/public/9d9e870aef22939b55614346cae160c1.jpg?itok=STbZVuNN",
+            "-width": "100",
+            "-height": "100"
+          }
+        },
+        "Name": "Michael Wayne Decker",
+        "Title-and-Department": "Web Developer, Stanford Web Services",
+        "Body": "Drupal developer.",
+        "Edit": {
+          "a": {
+            "-href": "/node/536/edit?destination=people/export/rss.xml",
+            "#text": "Edit"
+          }
+        }
+      },
+      {
+        "nid": "121",
+        "Picture": {
+          "img": {
+            "-class": "image-style-sm-square",
+            "-typeof": "foaf:Image",
+            "-src": "https://jse-dev.sites.stanford.edu/sites/g/files/sbiybj6821/f/styles/sm-square/public/JohnDoe.jpg?itok=kt4z0c4I",
+            "-width": "100",
+            "-height": "100"
+          }
+        },
+        "Name": "John Doe",
+        "Edit": {
+          "a": {
+            "-href": "/node/121/edit?destination=people/export/rss.xml",
+            "#text": "Edit"
+          }
+        }
+      },
+      {
+        "nid": "541",
+        "Picture": {
+          "img": {
+            "-class": "image-style-sm-square",
+            "-typeof": "foaf:Image",
+            "-src": "https://jse-dev.sites.stanford.edu/sites/g/files/sbiybj6821/f/styles/sm-square/public/profile-large-blank.png?itok=zcqEkZXQ",
+            "-width": "100",
+            "-height": "100"
+          }
+        },
+        "Name": "Gregory Garvey",
+        "Title-and-Department": "Web Developer, Stanford Web Services",
+        "Email": {
+          "div": {
+            "span": {
+              "-class": "descriptor",
+              "#text": "Email: "
+            },
+            "a": {
+              "-href": "mailto:ggarvey@stanford.edu",
+              "#text": "ggarvey@stanford.edu"
+            }
+          }
+        },
+        "Edit": {
+          "a": {
+            "-href": "/node/541/edit?destination=people/export/rss.xml",
+            "#text": "Edit"
+          }
+        }
+      },
+      {
+        "nid": "546",
+        "Picture": {
+          "img": {
+            "-class": "image-style-sm-square",
+            "-typeof": "foaf:Image",
+            "-src": "https://jse-dev.sites.stanford.edu/sites/g/files/sbiybj6821/f/styles/sm-square/public/2fb74af4a724a384d273ce144e62edd1.jpg?itok=RgMi-LBu",
+            "-width": "100",
+            "-height": "100"
+          }
+        },
+        "Name": "Alison Ho",
+        "Title-and-Department": "Web Project Manager, Stanford Web Services",
+        "Degrees-Education": "
+MFA, UC Santa Barbara, Art (2013), BFA, University of Oregon, Digital Arts (2010)
+",
+        "Email": {
+          "div": {
+            "span": {
+              "-class": "descriptor",
+              "#text": "Email: "
+            },
+            "a": {
+              "-href": "mailto:alisonh@stanford.edu",
+              "#text": "alisonh@stanford.edu"
+            }
+          }
+        },
+        "Edit": {
+          "a": {
+            "-href": "/node/546/edit?destination=people/export/rss.xml",
+            "#text": "Edit"
+          }
+        }
+      },
+      {
+        "nid": "551",
+        "Picture": {
+          "img": {
+            "-class": "image-style-sm-square",
+            "-typeof": "foaf:Image",
+            "-src": "https://jse-dev.sites.stanford.edu/sites/g/files/sbiybj6821/f/styles/sm-square/public/profile-large-blank.png?itok=zcqEkZXQ",
+            "-width": "100",
+            "-height": "100"
+          }
+        },
+        "Name": "Rebecca Hong",
+        "Title-and-Department": "
+Customer Experience Specialist, Stanford Web Services
+",
+        "Email": {
+          "div": {
+            "span": {
+              "-class": "descriptor",
+              "#text": "Email: "
+            },
+            "a": {
+              "-href": "mailto:rehong@stanford.edu",
+              "#text": "rehong@stanford.edu"
+            }
+          }
+        },
+        "Edit": {
+          "a": {
+            "-href": "/node/551/edit?destination=people/export/rss.xml",
+            "#text": "Edit"
+          }
+        }
+      },
+      {
+        "nid": "141",
+        "Picture": {
+          "img": {
+            "-class": "image-style-sm-square",
+            "-typeof": "foaf:Image",
+            "-src": "https://jse-dev.sites.stanford.edu/sites/g/files/sbiybj6821/f/styles/sm-square/public/Greenhouse_student2.png?itok=BWINbjcb",
+            "-width": "100",
+            "-height": "100",
+            "-alt": "Student in greenhouse",
+            "-title": "Student in greenhouse"
+          }
+        },
+        "Name": "Haley Jackson",
+        "Degrees-Education": "B.A., Stanford University, 2012",
+        "Body": "
+This is a sample student bio for Sally Jacks. Nullam laoreet pulvinar nibh ut tempus. Aenean a enim in tellus mattis condimentum. Maecenas eu tristique sapien, mollis fringilla dolor. Vivamus nec laoreet metus. Praesent eu neque enim. Nam at neque sed arcu laoreet consequat. Donec feugiat sed magna tempus dignissim. Nunc pretium dolor justo, in hendrerit lectus scelerisque quis. Donec rhoncus condimentum interdum. Sed euismod varius diam quis suscipit. Vestibulum scelerisque gravida massa ut...
+",
+        "Office": {
+          "div": {
+            "span": {
+              "-class": "descriptor",
+              "#text": "Office: "
+            },
+            "#text": "Bldg. 460, rm 317 "
+          }
+        },
+        "MailingAddress": {
+          "p": {
+            "#text": [
+              "555 Main Lane",
+              " Stanford, CA 94305"
+            ]
+          }
+        },
+        "MailCode": "5230",
+        "Phone": "(555) 555-5555",
+        "Email": {
+          "div": {
+            "span": {
+              "-class": "descriptor",
+              "#text": "Email: "
+            },
+            "a": {
+              "-href": "mailto:mysunetid@stanford.edu",
+              "#text": "mysunetid@stanford.edu"
+            }
+          }
+        },
+        "Edit": {
+          "a": {
+            "-href": "/node/141/edit?destination=people/export/rss.xml",
+            "#text": "Edit"
+          }
+        }
+      },
+      {
+        "nid": "131",
+        "Picture": {
+          "img": {
+            "-class": "image-style-sm-square",
+            "-typeof": "foaf:Image",
+            "-src": "https://jse-dev.sites.stanford.edu/sites/g/files/sbiybj6821/f/styles/sm-square/public/Woman_at_desk.png?itok=XyYXnx_9",
+            "-width": "100",
+            "-height": "100",
+            "-alt": "Woman at desk",
+            "-title": "Woman at desk"
+          }
+        },
+        "Name": "Emily Jordan",
+        "Title-and-Department": "Department Manager",
+        "Body": "
+This a sample bio for staff member Emily Jordan. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at tempor dolor, at blandit odio. Nullam malesuada nisi sit amet fringilla venenatis. In nec turpis ut risus imperdiet gravida sed id magna. Vestibulum non nulla ac augue placerat rutrum. Cras feugiat in ipsum non viverra. Cras accumsan orci sed purus imperdiet pretium. Nunc et nisi lacinia massa aliquam vehicula at eu odio. Morbi rutrum sagittis ligula, et lobortis magna fermentum...
+",
+        "Office": {
+          "div": {
+            "span": {
+              "-class": "descriptor",
+              "#text": "Office: "
+            },
+            "#text": "460-317 "
+          }
+        },
+        "Phone": "(555) 555-5555",
+        "Email": {
+          "div": {
+            "span": {
+              "-class": "descriptor",
+              "#text": "Email: "
+            },
+            "a": {
+              "-href": "mailto:mysunetid@stanford.edu",
+              "#text": "mysunetid@stanford.edu"
+            }
+          }
+        },
+        "Edit": {
+          "a": {
+            "-href": "/node/131/edit?destination=people/export/rss.xml",
+            "#text": "Edit"
+          }
+        }
+      }
+    ]
+  }
+}

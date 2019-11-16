@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<!-- saved from url=(0048)https://jse-dev.sites.stanford.edu/people/export -->
 <html lang="en" dir="ltr" data-livestyle-extension="available" class="js"><!-- <![endif]--><head data-la-initdispnone="true"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
+<!-- saved from url=(0048)https://jse-dev.sites.stanford.edu/people/export -->
 <link rel="shortcut icon" href="https://jse-dev.sites.stanford.edu/sites/all/themes/stanford_framework/favicon.ico" type="image/vnd.microsoft.icon" data-la-initdispnone="true">
 <link href="https://jse-dev.sites.stanford.edu/sites/all/themes/stanford_framework/apple-touch-icon-57x57.png" rel="apple-touch-icon" sizes="57x57" data-la-initdispnone="true">
 <link href="https://jse-dev.sites.stanford.edu/sites/all/themes/stanford_framework/apple-touch-icon-60x60.png" rel="apple-touch-icon" sizes="60x60" data-la-initdispnone="true">
@@ -765,13 +765,18 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
  <script>window.core || document.write('<script crossorigin src="../../../node_modules/core-js/client/shim.min.js"><\/script>')</script>
  <script src="../../../assets/polyfills/raf-3.4.0-polyfill.min.js"></script>
  -->
+ <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
 
  <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
- <script>window.React || document.write('<script crossorigin src="../../../node_modules/react/umd/react.development.js"><\/script>')</script>
+ <script>window.React || document.write('<script crossorigin src="node_modules/react/umd/react.development.js"><\/script>')</script>
  <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
- <script>window.ReactDOM || document.write('<script crossorigin src="../../../node_modules/react-dom/umd/react-dom.development.js"><\/script>')</script>
+ <script>window.ReactDOM || document.write('<script crossorigin src="node_modules/react-dom/umd/react-dom.development.js"><\/script>')</script>
 
-<script src="directory.js"></script>
+<script crossorigin src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+<script>window.Babel || document.write('<script src="node_modules/babel-standalone/babel.min.js"><\/script>')</script>
+
+<script src="assets/people-data.js"></script>
+<script src="directory-dist.js"></script>
 
 </body>
 </html>

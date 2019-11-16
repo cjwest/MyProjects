@@ -1,3 +1,5 @@
+//import React from "react";
+
 (function() {
   "use strict";
 
@@ -44,35 +46,26 @@
     )
   }
 
-  class Directory extends React.Component {
-    constructor(props) {
-      super(props);
+  */
+    class Directory extends React.Component {
+        constructor(props) {
+            super(props);
 
-    response = fetch("https://jse-dev.sites.stanford.edu/people/export/json");
-      console.log(response);
+        }
+
+        render() {
+            //let data = window.Directory.nodes;
+            //console.log(data)
+            return (
+            <div className="sws-directory">
+                <h2>SWS Directory</h2>
+                <p>Learn more about each person in this directory.</p>
+
+
+            </div>
+            );
+        }
     }
-  }
 
-  render() {
- */
-
-    let data = [];
-    fetch("https://jse-dev.sites.stanford.edu/people/export/rss.xml")
-    .then(data => data.xml())
-
-    console.log(data)
-/*
-    fetch("https://jse-dev.sites.stanford.edu/people/export/json",
-      {
-        mode: 'no-cors'
-      },)
-      .then(function(response) {
-        return response.json();
-       })
-       .then(function(myJson) {
-         console.log(JSON.stringify(myJson));
-       })
-       */
-
-//  }
+  ReactDOM.render(<Directory />, document.getElementById("directory-root"));
 })();
