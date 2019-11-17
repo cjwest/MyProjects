@@ -11,76 +11,133 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 //import React from "react";
 
 (function () {
-    "use strict";
+  "use strict";
 
-    /*
-    function Person(props){
-    return ()
-    <div className="views-row person">
-     <div className="postcard-left">
-    <div className="postcard-col1">
-    <div>
-    <a href="https://jse-dev.sites.stanford.edu/people/kerri-augenstein" style="border: none;">
-    <img className="image-style-sm-square" typeof="foaf:Image" src="./SWS_People_files/profile-large-blank.png" width="100" height="100" alt="">
-    </a>
-    </div>
-    </div>
-     <div className="postcard-col2">
-    <h3><a href="https://jse-dev.sites.stanford.edu/people/kerri-augenstein">Kerri Augenstein</a></h3>
-      <div className="person_office"></div>
-    <div className="person_address"> </div>
-    <div className="person_mail_code"></div>
-    <div className="person_phone">(650) 725-2779</div>
-    <div className="person_email"><div><span className="descriptor">Email: </span><a href="mailto:kaugenst@stanford.edu">kaugenst@stanford.edu</a></div></div>
-     <span className="edit-link"><a href="https://jse-dev.sites.stanford.edu/node/521/edit?destination=people/export">Edit</a></span>
-    </div>
-     <div className="postcard-col3">
-    <div className="descriptor descriptor-btn"></div>
-     </div>
-     </div>
-    </div>
+  function Person(props) {
+    return React.createElement(
+      "div",
+      { className: "person" },
+      React.createElement(
+        "h3",
+        null,
+        props.person.name
+      ),
+      React.createElement(
+        "p",
+        null,
+        props.person.title
+      )
+    );
+  }
+
+  function People(props) {
+    if (props.people) {
+      return React.createElement(
+        "div",
+        { className: "results" },
+        props.people.map(function (person) {
+          return React.createElement(Person, { key: person.nid, person: person });
+        })
+      );
+    } else {
+      return React.createElement(
+        "p",
+        null,
+        "Error: no person data found"
+      );
     }
-    function People(props) {
-    return (
-    )
+  }
+
+  function Filters(props) {
+    return React.createElement(
+      "form",
+      { action: "", id: "directory-filters" },
+      React.createElement(
+        "p",
+        null,
+        "filters go here"
+      )
+    );
+  }
+  /*
+      function Person(props){
+          return (
+              <div className="person">
+  
+                  <div className="postcard-left">
+                      <div className="postcard-col1">
+                          <div>
+                              <a href="https://jse-dev.sites.stanford.edu/people/kerri-augenstein" style="border: none;">
+                                  <img className="image-style-sm-square" typeof="foaf:Image" src="./SWS_People_files/profile-large-blank.png" width="100" height="100" alt=""></img>
+                              </a>
+                          </div>
+                      </div>
+  
+                      <div className="postcard-col2">
+                          <h3><a href="https://jse-dev.sites.stanford.edu/people/kerri-augenstein">Kerri Augenstein</a></h3>
+  
+  
+                          <div className="person_office"></div>
+                          <div className="person_address"> </div>
+                          <div className="person_mail_code"></div>
+                          <div className="person_phone">(650) 725-2779</div>
+                          <div className="person_email"><div><span className="descriptor">Email: </span><a href="mailto:kaugenst@stanford.edu">kaugenst@stanford.edu</a></div></div>
+  
+                          <span className="edit-link"><a href="https://jse-dev.sites.stanford.edu/node/521/edit?destination=people/export">Edit</a></span>
+                      </div>
+  
+                      <div className="postcard-col3">
+                          <div className="descriptor descriptor-btn"></div>
+  
+                      </div>
+  
+                  </div>
+              </div>
+      );
+      }
+  
+      */
+
+  var Directory = function (_React$Component) {
+    _inherits(Directory, _React$Component);
+
+    function Directory(props) {
+      _classCallCheck(this, Directory);
+
+      var _this = _possibleConstructorReturn(this, (Directory.__proto__ || Object.getPrototypeOf(Directory)).call(this, props));
+
+      _this.state = {
+        people: window.Directory.people
+      };
+      return _this;
     }
-    */
 
-    var Directory = function (_React$Component) {
-        _inherits(Directory, _React$Component);
+    _createClass(Directory, [{
+      key: "render",
+      value: function render() {
+        //let data = window.Directory.people;
+        console.log(this.state.people);
+        return React.createElement(
+          "div",
+          { className: "sws-directory" },
+          React.createElement(
+            "h2",
+            null,
+            "SWS Directory"
+          ),
+          React.createElement(
+            "p",
+            null,
+            "Learn more about each person in this directory."
+          ),
+          React.createElement(People, { people: this.state.people })
+        );
+      }
+    }]);
 
-        function Directory(props) {
-            _classCallCheck(this, Directory);
+    return Directory;
+  }(React.Component);
 
-            return _possibleConstructorReturn(this, (Directory.__proto__ || Object.getPrototypeOf(Directory)).call(this, props));
-        }
-
-        _createClass(Directory, [{
-            key: "render",
-            value: function render() {
-                //let data = window.Directory.nodes;
-                //console.log(data)
-                return React.createElement(
-                    "div",
-                    { className: "sws-directory" },
-                    React.createElement(
-                        "h2",
-                        null,
-                        "SWS Directory"
-                    ),
-                    React.createElement(
-                        "p",
-                        null,
-                        "Learn more about each person in this directory."
-                    ),
-
-                );
-            }
-        }]);
-
-        return Directory;
-    }(React.Component);
-
-    ReactDOM.render(React.createElement(Directory, null), document.getElementById("directory-root"));
+  ReactDOM.render(React.createElement(Directory, null), document.getElementById("directory-root"));
 })();
 //# sourceMappingURL=directory-dist.js.map

@@ -30,6 +30,7 @@ Notes
 
 Has apache been started?
 Navigate to:
+cd /usr/local/var/www/MyProjects 
 http://localhost/MyProjects/ReactJS/People/index.html
 
 ## From the filesystem
